@@ -2,7 +2,9 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "jest/globals": true
+        "jest": true,
+        "jest/globals": false,
+        "SKIP_PREFLIGHT_CHECK": true
     },
     "extends": [
         "plugin:react/recommended",

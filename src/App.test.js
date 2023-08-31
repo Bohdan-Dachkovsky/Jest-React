@@ -8,7 +8,7 @@ export default function grand() {
   });
 }
 describe("App tests", () => {
-  it("adds 1 + 2 to equal 3", () => {
+  test("adds 1 + 2 to equal 3", () => {
     render(<App />);
     const linkElement = screen.getByText(/learn react/i);
     expect(linkElement).toBeInTheDocument();
