@@ -1,3 +1,4 @@
+import { sum } from "./sum";
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -15,7 +16,7 @@ function App() {
         >
           Learn React
         </a>
-        <p></p>
+        <p>{sum}</p>
       </header>
     </div>
   );
