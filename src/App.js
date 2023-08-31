@@ -1,7 +1,7 @@
 import { sum } from "./sum";
 import logo from "./logo.svg";
 import "./App.css";
-
+import { grand } from "./App.test.js";
 function App() {
   return (
     <div className="App">
@@ -17,12 +17,14 @@ function App() {
           Learn React
         </a>
         <label>
+          Enter the year of making a picture:
           <input className="outputYear"></input>
         </label>
         <label>
+          Lead rating, if you don't remember year:
           <input className="rarity"></input>
         </label>
-        <p>{sum}</p>
+        <p>{grand?.length && sum}</p>
       </header>
     </div>
   );
