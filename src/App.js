@@ -16,6 +16,12 @@ function App() {
         >
           Learn React
         </a>
+        <label>
+          <input className="outputYear"></input>
+        </label>
+        <label>
+          <input className="rarity"></input>
+        </label>
         <p>{sum}</p>
       </header>
     </div>
