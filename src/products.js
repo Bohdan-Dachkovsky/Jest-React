@@ -1,16 +1,17 @@
-export default picture = (year, b) => {
+export default function picture(year, b) {
   let photobank = [300, 600, 900, 1200, 1500, 1800, 1900];
-  for (i = 300; i < year; i++) {
+  for (let i = 300; i < year; i++) {
     if (b > 5) return;
     if (year % 2 === 0) {
-      return (photo = 10 + b++);
+      let photo = 10 + b++;
+      photobank.push(photo);
     } else if (year % 2 !== 0) {
-      return (photo = 0);
+      photobank.push(0);
     }
   }
-  photobank.push(photo);
+
   return photobank;
-};
-const year = document.getElementsByClassName(input.outputYear);
-const b = document.getElementsByClassName(input.rarity);
-picture(year, b);
+}
+// const year = document.getElementsByClassName("outputYear");
+// const b = document.getElementsByClassName("rarity");
+// picture(year, b);
