@@ -1,4 +1,4 @@
-import { sum } from "./sum";
+import sum from "./sum";
 import logo from "./logo.svg";
 import "./App.css";
 import { grand } from "./App.test.js";
