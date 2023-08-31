@@ -1,6 +1,7 @@
 {
   "name": "jest",
   "version": "0.1.0",
+  "homepage": "https://Bohdan-Dachkovsky.github.io/Jest-React/",
   "private": true,
   "dependencies": {
     "@babel/preset-react": "^7.22.5",
