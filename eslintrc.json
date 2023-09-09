@@ -3,7 +3,6 @@
         "browser": true,
         "es2021": true,
         "jest": true,
-        "jest/globals": true,
         "SKIP_PREFLIGHT_CHECK": true
     },
     "extends": [
@@ -12,6 +11,9 @@
         "airbnb",
         "prettier"
     ],
+    "options": {
+        "port": 4201
+    },
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
