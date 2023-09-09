@@ -1,7 +1,7 @@
 import sum from "./sum";
 import logo from "./logo.svg";
 import "./App.css";
-import grand from "./App.test.js";
+import grand from "./products.js";
 function App() {
   return (
     <div className="App">

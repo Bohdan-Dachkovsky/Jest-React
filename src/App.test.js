@@ -2,11 +2,7 @@ import { render, screen } from "@testing-library/react";
 import App from "./App.js";
 import sum from "./sum";
 import { picture } from "./products";
-export default function grand() {
-  picture.map((element) => {
-    return element === 2024;
-  });
-}
+
 describe("App tests", () => {
   test("adds 1 + 2 to equal 3", () => {
     render(<App />);

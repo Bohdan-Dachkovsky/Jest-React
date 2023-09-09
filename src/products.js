@@ -12,6 +12,11 @@ export const picture = (year, b) => {
 
   return photobank;
 };
+export default function grand() {
+  picture.map((element) => {
+    return element === 2024;
+  });
+}
 // const year = document.getElementsByClassName("outputYear");
 // const b = document.getElementsByClassName("rarity");
 // picture(year, b);
