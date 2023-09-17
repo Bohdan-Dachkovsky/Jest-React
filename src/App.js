@@ -24,7 +24,9 @@ function App() {
           Lead rating, if you don't remember year:
           <input className="rarity"></input>
         </label>
-        <p>I win {grand?.length && sum} picture</p>
+        <p>
+          I win <strong>{grand?.length && sum}</strong> free pictures
+        </p>
       </header>
     </div>
   );
